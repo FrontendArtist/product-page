@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <p>Eydi | poducts page</p>
+    </header>
+    <main>
+        <div id="search">
+            <input id="search__input" placeholder="search name" type="text">
+            <div>
+                <button data-filter="all" class="filter">All</button>
+                <button data-filter="laptop" class="filter">Laptop</button>
+                <button data-filter="console" class="filter">Console</button>
+                <button data-filter="phone" class="filter">Phone</button>
+                <button data-filter="more" class="filter">more...</button>
+            </div>
+            <div id="search-price">
+                <input type="number" placeholder="Search price">
+                <button>Search</button>
+            </div>
+        </div>
+        <div id="products">
+            <div data-category="console" class="product-item">
+                <img src="/img/ps5.jpg" alt="Play Staition 5">
+                <p>Play staition 5</p>
+                <span>1000 $</span>
+            </div>
+            <div data-category="more" class="product-item">
+                <img src="/img/airpod.jpg" alt="airpod">
+                <p>Airpod</p>
+                <span>300 $</span>
+            </div>
+            <div data-category="more" class="product-item">
+                <img src="/img/applewatch.jpg" alt="Apple Watch">
+                <p>Apple Watch</p>
+                <span>500 $</span>
+            </div>
+            <div data-category="laptop" class="product-item">
+                <img src="/img/macbook.jpg" alt="MacBook">
+                <p>MacBook</p>
+                <span>3000 $</span>
+            </div>
+            <div data-category="phone" class="product-item">
+                <img src="/img/samsung.jpg" alt="Samsung">
+                <p>Samsung S23 Ultra</p>
+                <span>1000 $</span>
+            </div>
+            <div data-category="more" class="product-item">
+                <img src="/img/speaker.jpg" alt="speaker">
+                <p>Speaker</p>
+                <span>1000 $</span>
+            </div>
+            <div data-category="laptop" class="product-item">
+                <img src="/img/surfacebook.png" alt="Surface Book">
+                <p>Surface Book</p>
+                <span>800 $</span>
+            </div>
+        </div>
+    </main>
+    <script src="/js/app.js"></script>
+</body>
+</html>
